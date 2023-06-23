@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useEffect, useState } from 'react';
-import { supabase } from '../../supabaseClient';
+import { supabase } from '../../config/supabaseClient';
 
 export default function Avatar({ url, size, onUpload }) {
   const [avatarUrl, setAvatarUrl] = useState(null);

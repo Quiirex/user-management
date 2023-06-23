@@ -1,6 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import { supabase } from './supabaseClient';
+import { supabase } from './config/supabaseClient';
 import Auth from '../src/components/auth/Auth';
 import Account from '../src/components/account/Account';
 
