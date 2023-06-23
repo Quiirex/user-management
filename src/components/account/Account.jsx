@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from 'react';
-import { supabase } from './supabaseClient';
+import { supabase } from '../../supabaseClient';
 
 export default function Account({ session }) {
   const [loading, setLoading] = useState(true);
